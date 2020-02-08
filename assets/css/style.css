@@ -217,19 +217,18 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px){
-  
+.main-section{
+  width: 70%;
+}
+nav{
+  margin-right: 25px;
+}
 }
 
 @media screen and (max-width: 768px){
- /* #masthead,
-  .container,
-  .container a
-  .work
-  #main-section
-  {
-    margin: 0;
-   
-  }*/
+  .main-section{
+    width:100%;
+  }
   nav{
     margin-right: 25px;
   }
@@ -249,10 +248,14 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px){
+
+  .main-section{
+    width:100%;
+  }
   
   #masthead,
   nav,
-  #logo a,
+
   .container,
   .container a
   .work
@@ -265,7 +268,10 @@ input[type=submit] {
     overflow: hidden;
     
   }
-  
+
+  #logo{
+    width: 100%;
+  }
   nav{
     text-align: center;
     padding: 10px;
