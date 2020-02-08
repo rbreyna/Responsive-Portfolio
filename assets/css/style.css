@@ -221,22 +221,18 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 768px){
-  #masthead,
-  nav,
-  #logo a,
+ /* #masthead,
   .container,
   .container a
   .work
   #main-section
-
   {
-    
     margin: 0;
-    width: 100%;
-    overflow: hidden;
-    
+   
+  }*/
+  nav{
+    margin-right: 25px;
   }
-
   ul, li{
     /*need to shift list to the left*/
     list-style-type: none;
