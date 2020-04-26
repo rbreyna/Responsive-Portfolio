@@ -145,6 +145,7 @@ h3, h2 {
 }
 
 .work:nth-child(even) {
+  margin-left: 17%;
   margin-right: 40px;
 }
 
@@ -167,6 +168,7 @@ h3, h2 {
   background: #4aaaa5;
   border-bottom: 0;
 }
+
 
 .auth-image {
   float: left;
@@ -217,9 +219,11 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px){
-.main-section{
-  width: 70%;
-}
+  .work:nth-child(even) {
+    margin-left: 8%;
+    margin-right: 40px;
+  }
+
 nav{
   margin-right: 25px;
 }
@@ -255,7 +259,6 @@ nav{
   
   #masthead,
   nav,
-
   .container,
   .container a
   .work
@@ -287,7 +290,14 @@ nav{
 
   .work{
     float: none;
+    margin: 0 auto;
+    text-align: center;
   }
+
+  .work:nth-child(even) {
+    margin: 0 auto;
+  }
+  
 
   img{
     width:100%;
@@ -315,8 +325,4 @@ nav{
     max-height: 250px;;
     padding:10px;
   }
-}
-
-.work{
-  text-align: center;
 }
